@@ -1,7 +1,7 @@
 import express from "express";
 import fs from "fs"
 const app=express();
-const PORT=8080;
+const PORT=process.env.PORT;
 // app.get("/",(request,response)=>{
 //     response.send("Welcome to Node App!!!")
 // })
